@@ -1,8 +1,10 @@
-Enhanced Question Bank Generator
+**Enhanced Question Bank Generator**
 An AI-powered application that automatically generates educational question banks from PDF documents, leveraging vector embeddings and large language models.
 About
 The Enhanced Question Bank Generator is a sophisticated tool designed for educators and content creators who need to quickly generate high-quality assessment materials from existing documents. This application combines the power of natural language processing, vector embeddings, and large language models to analyze PDF content and create relevant, well-structured questions with appropriate mark allocation. Whether you're preparing for classroom assessments, creating practice materials, or developing standardized tests, this tool streamlines the process while ensuring pedagogical soundness.
-Features
+
+**Features**
 The application offers a comprehensive suite of features designed to create effective educational assessments. It processes PDF documents with advanced text extraction capabilities, including OCR support for scanned materials. Using vector embeddings and similarity search, it identifies key concepts and relevant content sections to inform question generation. Users can customize their question banks by specifying subject matter, difficulty levels, and distribution between multiple-choice and subjective questions. The system incorporates established educational frameworks like Bloom's Taxonomy and competency-based categories to ensure questions target appropriate cognitive levels and skills. Additionally, it implements a sophisticated mark allocation algorithm that distributes points fairly based on question complexity and type.
-Requirements
+
+**Requirements**
 To run the Enhanced Question Bank Generator, you'll need Python 3.8 or higher installed on your system. The application requires a Groq API key for accessing the large language model used in question generation. For processing scanned PDF documents, Tesseract OCR is recommended but optional. All other dependencies are handled through the provided requirements file, including libraries for vector embedding, similarity search, PDF processing, and the web interface.
