@@ -1,5 +1,6 @@
 Enhanced Question Bank Generator
 An AI-powered application that automatically generates educational question banks from PDF documents, leveraging vector embeddings and large language models.
+
 🌟 Features
 
 PDF Processing: Extract text from PDFs with OCR backup for scanned documents
