@@ -44,7 +44,7 @@ question_memory = set()
 chunk_doc_mapping = []
 
 # Initialize Groq GPT-4 client
-api_key = ("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")
+api_key = ("")
 if not api_key:
     raise ValueError("GROQ_API_KEY is missing. Set it in the .env file.")
 client = Groq(api_key=api_key)
